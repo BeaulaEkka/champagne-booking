@@ -1,9 +1,7 @@
 <template>
-  <div
-    class="w-full mx-auto relative flex flex-col justify-center items-center"
-  >
+  <div class="w-full mx-auto flex flex-col justify-center items-center ">
     <form
-      class="lg:w-[70%] md:w-full w-[90%] p-2 flex flex-col lg:flex-row md:flex-col gap-2 justify-between items-center bg-yellow-500 rounded-md absolute -top-10"
+      class="lg:w-[70%] md:w-full w-[90%] p-1 flex flex-col lg:flex-row md:flex-col gap-1 justify-between items-center bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-md shadow-md"
     >
       <!-- Where do you want to go? -->
       <div
@@ -19,7 +17,7 @@
           id="destination"
           name="destination"
           placeholder="Champagne House or destination "
-          class="mt-1 block p-2 w-full rounded-md shadow-sm"
+          class="mt-1 block p-2 w-full rounded-md"
         />
       </div>
 
@@ -32,14 +30,16 @@
           type="date"
           id="date"
           name="date"
-          class="mt-1 block w-full p-2 rounded-md shadow-sm text-gray-400"
+          class="mt-1 block w-full p-2 rounded-md text-gray-400"
           :value="todayDate"
         />
       </div>
 
       <!-- How many persons? -->
       <div class="flex flex-col flex-grow bg-white rounded-md p-2 w-full">
-        <label for="persons" class="block text-sm font-medium text-gray-700 ml-2"
+        <label
+          for="persons"
+          class="block text-sm font-medium text-gray-700 ml-2"
           >How many persons?</label
         >
         <input
@@ -47,7 +47,7 @@
           id="persons"
           name="persons"
           placeholder="2 adults"
-          class="mt-1 block w-full p-2 rounded-md shadow-sm"
+          class="mt-1 block w-full p-2 rounded-md"
         />
       </div>
 
@@ -73,7 +73,6 @@ const formatDate = (date) => {
   return `${year}-${month}-${day}`;
 };
 
-// Compute today's date
 const todayDate = ref(formatDate(new Date()));
 </script>
 

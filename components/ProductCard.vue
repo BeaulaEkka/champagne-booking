@@ -7,12 +7,15 @@
         class="w-full h-[60vh] object-cover shadow-sm"
       />
 
-      <p>{{ product.title }}</p>
-      <div
-        class="absolute bottom-6 bg-white w-[80%] h-28 flex border-b rounded-tr-md"
+      <h1
+        class="absolute bottom-[30%] left-0 right-0 text-4xl font-bold text-white text-center"
       >
+        {{ product.title }}
+      </h1>
+      <div class="bg-white absolute bottom-0 left-0 w-[70%] h-28"></div>
+      <div class="absolute bottom-0 w-full h-28 flex border-b rounded-tr-md">
         <div class="w-[70%] mx-auto flex gap-5 justify-between items-center">
-          <p>
+          <p class="w-[25%]">
             <span
               class="bg-yellow-500 px-3 py-1 rounded-t-lg rounded-br-lg rounded-bl-sm font-bold text-white"
               >{{ product.review }}</span
@@ -22,8 +25,11 @@
               v-html="starRating"
             ></span>
           </p>
-          <p class="skewed-text">{{ product.title }}</p>
-          <p>{{ product.address }}</p>
+          <p class="skewed-text w-[25%]">{{ product.title }}</p>
+          <p class="w-[25%]">{{ product.address }}</p>
+          <div class="bg-orange-400 w-[25%] h-full rounded-tr-md text-white flex flex-col items-center justify-center">
+            <p>From</p> <h1 class="text-4xl font-bold ">&#8364{{ product.price }}</h1>
+          </div>
         </div>
       </div>
     </div>
