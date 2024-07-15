@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Champagne Jeangout",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/8531018/pexels-photo-8531018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 2,
+    "title": "Champagne Xavier Loriot",
+    "description": "Exploring the beautiful vineyards by e-bike and enjoying a picnic sounds like a fantastic idea!",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/3073666/pexels-photo-3073666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 3,
+    "title": "Champagne Charles Pougeoise",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/2440528/pexels-photo-2440528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 4,
+    "title": "Champagne Perrier-Jouët",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/9750926/pexels-photo-9750926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 5,
+    "title": "Champagne François-Principe ARNOULT",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 6,
+    "title": "Champagne Duménil",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 30,
+    "activities": 7,
+    "image": "https://images.pexels.com/photos/5946588/pexels-photo-5946588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 7,
+    "title": "Champagne Guy Charbaut",
+    "description": "Champagne house Guy Charbaut in Mareuil-sur-Ay warmly invites you to discover their 19th-century wine cellars and taste their exquisite cuvées, crafted with utmost care and expertise.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/3171736/pexels-photo-3171736.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Champagne Xavier Loriot",
+    "description": "Exploring the beautiful vineyards by e-bike and enjoying a picnic sounds like a fantastic idea!",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/3073666/pexels-photo-3073666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 9,
+    "title": "Champagne Charles Pougeoise",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/2440528/pexels-photo-2440528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 10,
+    "title": "Champagne Perrier-Jouët",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/9750926/pexels-photo-9750926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 11,
+    "title": "Champagne François-Principe ARNOULT",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": 12,
+    "title": "Champagne Duménil",
+    "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
+    "price": 20,
+    "activities": 4,
+    "image": "https://images.pexels.com/photos/5946588/pexels-photo-5946588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  }
+]
