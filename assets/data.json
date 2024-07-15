@@ -5,7 +5,11 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/8531018/pexels-photo-8531018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/8531018/pexels-photo-8531018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5,
+    "extended": "Discover our biodynamic Champagne house in Rilly-la-Montagne",
+    "extended-description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production."
   },
   {
     "id": 2,
@@ -13,7 +17,9 @@
     "description": "Exploring the beautiful vineyards by e-bike and enjoying a picnic sounds like a fantastic idea!",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/3073666/pexels-photo-3073666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/3073666/pexels-photo-3073666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 4.5
   },
   {
     "id": 3,
@@ -21,7 +27,9 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/2440528/pexels-photo-2440528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/2440528/pexels-photo-2440528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 3.5
   },
   {
     "id": 4,
@@ -29,7 +37,9 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/9750926/pexels-photo-9750926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/9750926/pexels-photo-9750926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5
   },
   {
     "id": 5,
@@ -37,7 +47,9 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5
   },
   {
     "id": 6,
@@ -45,7 +57,9 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 30,
     "activities": 7,
-    "image": "https://images.pexels.com/photos/5946588/pexels-photo-5946588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/5946588/pexels-photo-5946588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5
   },
   {
     "id": 7,
@@ -53,7 +67,9 @@
     "description": "Champagne house Guy Charbaut in Mareuil-sur-Ay warmly invites you to discover their 19th-century wine cellars and taste their exquisite cuvées, crafted with utmost care and expertise.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/3171736/pexels-photo-3171736.jpeg"
+    "image": "https://images.pexels.com/photos/8531018/pexels-photo-8531018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5
   },
   {
     "id": 8,
@@ -61,7 +77,9 @@
     "description": "Exploring the beautiful vineyards by e-bike and enjoying a picnic sounds like a fantastic idea!",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/3073666/pexels-photo-3073666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/3073666/pexels-photo-3073666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5
   },
   {
     "id": 9,
@@ -69,7 +87,9 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/2440528/pexels-photo-2440528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/2440528/pexels-photo-2440528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5
   },
   {
     "id": 10,
@@ -77,7 +97,9 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/9750926/pexels-photo-9750926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/9750926/pexels-photo-9750926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5
   },
   {
     "id": 11,
@@ -85,7 +107,9 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 5
   },
   {
     "id": 12,
@@ -93,6 +117,8 @@
     "description": "Experience the warm hospitality of Champagne Jeangout in Rilly-la-Montagne near Reims. Surrounded by beautiful vineyards, it is the perfect place to learn more about champagne production.",
     "price": 20,
     "activities": 4,
-    "image": "https://images.pexels.com/photos/5946588/pexels-photo-5946588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "image": "https://images.pexels.com/photos/5946588/pexels-photo-5946588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "3 Rue Gervais, 51500 Rilly-la-Montagne, France",
+    "review": 3
   }
 ]

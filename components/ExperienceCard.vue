@@ -2,36 +2,40 @@
   <div class="relative">
     <div class="card-container flex overflow-hidden">
       <div
-        class="flex transition-transform duration-500 w-[80%]"
+        class="flex transition-transform duration-500 w-full"
         :style="{
           transform: `translateX(-${currentIndex * (100 / cardsPerView)}%)`,
         }"
       >
-      <nuxt-link to=""></nuxt-link>
         <div
           v-for="(item, index) in cards"
           :key="item.id"
-          class="card flex flex-col shadow-md rounded-md"
+          class="card flex flex-col shadow-md rounded-md hover:scale-105 transition-transform duration-300"
         >
-          <div class="rounded-t-md overflow-hidden">
-            <img
-              :src="item.image"
-              alt="Card image"
-              class="w-full h-52 object-cover"
-            />
-          </div>
-          <div class="p-4 flex flex-col flex-grow">
-            <div class="flex flex-col flex-grow">
-              <h2 class="font-semibold text-lg pb-2">{{ item.title }}</h2>
-              <p class="text-sm flex-grow pb-4">{{ item.description }}</p>
+          <nuxt-link
+            :to="`/places/${item.id}`"
+            class="cursor-pointer block h-full"
+          >
+            <div class="rounded-t-md overflow-hidden">
+              <img
+                :src="item.image"
+                alt="Card image"
+                class="w-full h-52 object-cover"
+              />
             </div>
-            <div
-              class="flex justify-between border-t pt-2 text-sm text-gray-500"
-            >
-              <p>From €{{ item.price }}</p>
-              <p class="text-sm">{{ item.activities }} activities</p>
+            <div class="p-4 flex flex-col flex-grow">
+              <div class="flex flex-col flex-grow">
+                <h2 class="font-semibold text-lg pb-2">{{ item.title }}</h2>
+                <p class="text-sm flex-grow pb-4">{{ item.description }}</p>
+              </div>
+              <div
+                class="flex justify-between border-t pt-2 text-sm text-gray-500"
+              >
+                <p>From €{{ item.price }}</p>
+                <p class="text-sm">{{ item.activities }} activities</p>
+              </div>
             </div>
-          </div>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -91,6 +95,6 @@ const next = () => {
   flex: 0 0 23.5%;
   border: 1px solid #ccc;
   margin: 10px;
-  width: calc(100% / 4 - 10px);
+  width: calc(100% / 4 - 20px);
 }
 </style>
