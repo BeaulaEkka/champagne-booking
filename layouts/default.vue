@@ -1,57 +1,84 @@
 <template>
   <div class="w-full mx-auto flex flex-col">
     <header
-      class="w-full shadow-md h-16 justify-center items-center py-4 bg-white/5 fixed top-0 z-10"
+      :class="{
+        '-translate-y-full': !isHeaderVisible,
+        'translate-y-0': isHeaderVisible,
+      }"
+      class="w-full shadow-md h-18 justify-center items-center py-4 bg-white/5 fixed top-0 z-10 border-b border-gray-50/25 transition-transform duration-300"
     >
       <nav class="w-[70%] mx-auto flex justify-between">
         <div>
-          <NuxtLink to="/"></NuxtLink>
+          <NuxtLink to="/"
+            ><img src="../public/images/logo-white.webp" alt="logo" width="200"
+          /></NuxtLink>
         </div>
-        <ul class="flex gap-5 text-white text-lg">
-          <li>Home</li>
+        <ul class="flex items-center gap-5 text-white text-lg">
+          <NuxtLink to="/"> <li class="font-semibold">Home</li></NuxtLink>
           <li
-            class="relative"
+            class="relative font-semibold"
             @mouseover="showDropdown"
             @mouseleave="hideDropdown"
           >
-            <NuxtLink to="/about">Champagne Houses</NuxtLink>
+            <NuxtLink to="/about"
+              >Champagne Houses<span class="text-xs ml-1 text-white"
+                ><font-awesome icon="fa-chevron-down" /></span
+            ></NuxtLink>
             <ul
               v-if="isDropdownVisible"
               class="absolute left-0 bg-white shadow-md p-4 dropdown-menu text-gray-800"
             >
-              <li class="p-2 text-red-600 font-semibold">
+              <li class="p-2 text-red-600 font-semibold text-md">
                 Popular destinations
               </li>
               <li
-                class="p-2 hover:bg-gray-100 hover:underline-offset-2 text-nowrap border-b"
+                class="p-2 hover:bg-gray-100 hover:underline-offset-2 text-nowrap border-b text-sm"
               >
                 <NuxtLink to="/about/reims">Champagne Houses in Reims</NuxtLink>
               </li>
-              <li class="p-2 hover:bg-gray-100 border-b">
+              <li class="p-2 hover:bg-gray-100 border-b text-sm">
                 <NuxtLink to="/about/epernay"
                   >Champagne Houses in Epernay</NuxtLink
                 >
               </li>
-              <li class="p-2 hover:bg-gray-100 border-b">
+              <li class="p-2 hover:bg-gray-100 border-b text-sm">
                 <NuxtLink to="/about/ay"
                   >Champagne Houses in Ay
                   <i class="fa fa-arrow-right" aria-hidden="true"></i
                 ></NuxtLink>
               </li>
-              <li class="p-2 text-red-600 font-semibold">Popular in Reims</li>
-              <li class="p-2 hover:bg-gray-100 border-b">
+              <li class="p-2 text-red-600 font-semibold text-md">
+                Popular in Reims
+              </li>
+              <li class="p-2 hover:bg-gray-100 border-b text-sm">
                 <NuxtLink to="/about/pommery">Champagne Pommery</NuxtLink>
               </li>
-              <li class="p-2 text-red-600 font-semibold">Popular in Epernay</li>
-              <li class="p-2 hover:bg-gray-100 border-b">
+              <li class="p-2 text-red-600 font-semibold text-md">Popular in Epernay</li>
+              <li class="p-2 hover:bg-gray-100 border-b text-sm">
                 <NuxtLink to="/about/mercier">Champagne Mercier</NuxtLink>
               </li>
             </ul>
           </li>
-          <li><NuxtLink to="/top10">Top 10</NuxtLink></li>
-          <li><NuxtLink to="/champagne-region">Champagne Region</NuxtLink></li>
-          <li><NuxtLink to="/contact">Contact</NuxtLink></li>
-          <li><NuxtLink to="/products">Account</NuxtLink></li>
+          <li class="font-semibold">
+            <NuxtLink to="/top10"
+              >Top 10
+              <span class="text-xs ml-1 text-white"
+                ><font-awesome icon="fa-chevron-down" /></span
+            ></NuxtLink>
+          </li>
+          <li class="font-semibold">
+            <NuxtLink to="/champagne-region"
+              >Champagne Region
+              <span class="text-xs ml-1 text-white"
+                ><font-awesome icon="fa-chevron-down" /></span
+            ></NuxtLink>
+          </li>
+          <li class="font-semibold">
+            <NuxtLink to="/contact">Contact</NuxtLink>
+          </li>
+          <li class="font-semibold">
+            <NuxtLink to="/products">Account</NuxtLink>
+          </li>
         </ul>
       </nav>
     </header>
@@ -65,9 +92,11 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 const isDropdownVisible = ref(false);
+const isHeaderVisible = ref(true);
+let lastScrollY = 0;
 
 function showDropdown() {
   isDropdownVisible.value = true;
@@ -76,11 +105,25 @@ function showDropdown() {
 function hideDropdown() {
   isDropdownVisible.value = false;
 }
+
+function handleScroll() {
+  const currentScrollY = window.scrollY;
+  isHeaderVisible.value = currentScrollY < lastScrollY || currentScrollY < 10;
+  lastScrollY = currentScrollY;
+}
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
 </script>
 
 <style scoped>
 .router-link-exact-active {
-  color: #12b488;
+  color: #d8690f;
 }
 
 /* Additional styling for dropdown */
@@ -115,5 +158,10 @@ function hideDropdown() {
 .dropdown-menu {
   width: 250px;
   border-radius: 0.5rem;
+}
+
+/* Transition class for header visibility */
+.transition-transform {
+  transition: transform 0;
 }
 </style>

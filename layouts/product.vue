@@ -1,22 +1,26 @@
 <template>
   <div class="min-h-screen flex flex-col w-full">
     <header
-      class="w-full shadow-md h-18 justify-center items-center py-4 bg-white fixed top-0 z-10 border-b-4 border-yellow-500"
+      class="w-full shadow-md h-18 justify-center items-center py-4 bg-white border-b-4 border-yellow-500"
     >
-      <nav class="w-[70%] mx-auto flex justify-between">
+      <nav class="w-[70%] mx-auto flex justify-between items-center">
         <div>
           <NuxtLink to="/"
             ><img src="../public/images/logo.webp" alt="logo" width="200"
           /></NuxtLink>
         </div>
         <ul class="flex gap-5 text-gray-800 text-lg">
-          <li>Home</li>
+          <li><NuxtLink to="/">Home</NuxtLink></li>
           <li
             class="relative"
             @mouseover="showDropdown"
             @mouseleave="hideDropdown"
           >
-            <NuxtLink to="/about">Champagne Houses</NuxtLink>
+            <NuxtLink to="/about"
+              >Champagne Houses
+              <span class="text-xs ml-1 text-gray-500"
+                ><font-awesome icon="fa-chevron-down" /></span
+            ></NuxtLink>
             <ul
               v-if="isDropdownVisible"
               class="absolute left-0 bg-white shadow-md p-4 dropdown-menu text-gray-800"
@@ -54,8 +58,18 @@
               </li>
             </ul>
           </li>
-          <li><NuxtLink to="/top10">Top 10</NuxtLink></li>
-          <li><NuxtLink to="/champagne-region">Champagne Region</NuxtLink></li>
+          <li>
+            <NuxtLink to="/top10"
+              >Top 10<span class="text-xs ml-1 text-gray-500"
+                ><font-awesome icon="fa-chevron-down" /></span
+            ></NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/champagne-region"
+              >Champagne Region<span class="text-xs ml-1 text-gray-500"
+                ><font-awesome icon="fa-chevron-down" /></span
+            ></NuxtLink>
+          </li>
           <li><NuxtLink to="/contact">Contact</NuxtLink></li>
           <li><NuxtLink to="/products">Account</NuxtLink></li>
         </ul>

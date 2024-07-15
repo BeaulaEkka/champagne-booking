@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@vesp/nuxt-fontawesome"],
   fontawesome: {
     icons: {
-      solid: ["fa-check", "fa-arrow-right"],
+      solid: ["fa-check", "fa-arrow-right", "fa-chevron-down"],
     },
   },
 });
