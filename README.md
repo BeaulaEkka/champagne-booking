@@ -1,3 +1,5 @@
+# Live site:[Champagne Booking](https://champagne-booking.vercel.app/)
+
 ![Screenshot](public/images/Screenshot.png)
 
 # Nuxt 3 Minimal Starter
