@@ -1,4 +1,4 @@
-# Live site:[Champagne Booking](https://champagne-booking.vercel.app/)
+## Live site:[Champagne Booking](https://champagne-booking.vercel.app/)
 
 ![Screenshot](public/images/Screenshot.png)
 

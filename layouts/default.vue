@@ -53,7 +53,9 @@
               <li class="p-2 hover:bg-gray-100 border-b text-sm">
                 <NuxtLink to="/about/pommery">Champagne Pommery</NuxtLink>
               </li>
-              <li class="p-2 text-red-600 font-semibold text-md">Popular in Epernay</li>
+              <li class="p-2 text-red-600 font-semibold text-md">
+                Popular in Epernay
+              </li>
               <li class="p-2 hover:bg-gray-100 border-b text-sm">
                 <NuxtLink to="/about/mercier">Champagne Mercier</NuxtLink>
               </li>
@@ -122,10 +124,6 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-.router-link-exact-active {
-  color: #d8690f;
-}
-
 /* Additional styling for dropdown */
 .relative {
   position: relative;
